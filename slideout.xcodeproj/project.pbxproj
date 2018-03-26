@@ -13,6 +13,9 @@
 		001A60F920688D50005A0692 /* slideout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 001A60F720688D50005A0692 /* slideout.xcdatamodeld */; };
 		001A60FB20688D50005A0692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001A60FA20688D50005A0692 /* Assets.xcassets */; };
 		001A60FE20688D50005A0692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001A60FC20688D50005A0692 /* LaunchScreen.storyboard */; };
+		00931765206891A400BA75AA /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00931764206891A400BA75AA /* BaseViewController.swift */; };
+		009317672068927C00BA75AA /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009317662068927C00BA75AA /* SideMenuViewController.swift */; };
+		0093176920689B7C00BA75AA /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0093176820689B7C00BA75AA /* MyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		001A60FA20688D50005A0692 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		001A60FD20688D50005A0692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		001A60FF20688D50005A0692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00931764206891A400BA75AA /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		009317662068927C00BA75AA /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		0093176820689B7C00BA75AA /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				001A60FC20688D50005A0692 /* LaunchScreen.storyboard */,
 				001A60FF20688D50005A0692 /* Info.plist */,
 				001A60F720688D50005A0692 /* slideout.xcdatamodeld */,
+				00931764206891A400BA75AA /* BaseViewController.swift */,
+				009317662068927C00BA75AA /* SideMenuViewController.swift */,
+				0093176820689B7C00BA75AA /* MyViewController.swift */,
 			);
 			path = slideout;
 			sourceTree = "<group>";
@@ -140,7 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				001A60F920688D50005A0692 /* slideout.xcdatamodeld in Sources */,
+				00931765206891A400BA75AA /* BaseViewController.swift in Sources */,
 				001A60F320688D50005A0692 /* ViewController.swift in Sources */,
+				009317672068927C00BA75AA /* SideMenuViewController.swift in Sources */,
+				0093176920689B7C00BA75AA /* MyViewController.swift in Sources */,
 				001A60F120688D50005A0692 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P34G6RK5WS;
 				INFOPLIST_FILE = slideout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gss.slideout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -296,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P34G6RK5WS;
 				INFOPLIST_FILE = slideout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gss.slideout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
